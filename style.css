@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(221, 237, 206, 0.6)
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    background-color: #999;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+}
+
+h1 {
+    color: #333;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 25px 0;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #999;
+    color: white;
+    padding: 8px 15px;
+    margin: 6px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.project h3 {
+    color: #555;
+}
+
+.project-link {
+    color: #777;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.education-item,
+.experience-item,
+.interests {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-left: 4px solid #ccc;
+    border-radius: 6px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
+}
+
+.social-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
